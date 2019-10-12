@@ -1,0 +1,147 @@
+.progress {
+    margin: 2rem;
+}
+
+.contprincipalq {
+    display: flex!important;
+    flex-direction: row;
+}
+
+.contImgQ {
+    width: 50%;
+    margin: 1rem;
+}
+
+.habilidades {
+    width: 50%;
+    margin: 1rem;
+}
+
+span {
+    text-align: center!important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.cv {
+    margin-left: 2rem;
+    ;
+}
+
+.quiensoy {
+    padding-top: 5%;
+}
+
+.hb {
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+    ;
+}
+
+.bio {
+    text-align: center;
+}
+
+.fa-sort-down {
+    color: white;
+    line-height: -1;
+    font-size: 1.1rem;
+    ;
+}
+
+img {
+    height: 70vh;
+}
+
+.fondoYisus {
+    background-image: url(../../components/../../assets/img/FONDOjESUS.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.contImgQ {
+    text-align: center;
+}
+
+
+/* estilos colores logos de tecnologia */
+
+.fa-html5 {
+    color: #DE4B25;
+}
+
+.fa-css3-alt {
+    color: #2195f1;
+}
+
+.fa-js-square {
+    color: #E9CA32;
+}
+
+.fa-php {
+    color: #7478AE;
+}
+
+.fa-angular {
+    color: #BE002E;
+}
+
+.fa-node {
+    color: green;
+}
+
+.fab {
+    font-size: 2rem;
+    margin: 0 10px;
+}
+
+.contCode {
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .contCode {
+        display: flex;
+    }
+    .contImg {
+        width: 50%;
+    }
+    .cpntParrafo {
+        width: 50%;
+        line-height: 2;
+        margin-top: 4rem;
+        ;
+    }
+    .idea {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .cv {
+        margin-left: 0rem;
+        ;
+    }
+    .contprincipalq {
+        display: flex!important;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contflex {
+        text-align: center!important;
+    }
+    .quiensoy {
+        padding-top: 10%;
+    }
+    .contImgQ {
+        margin: 1rem;
+        width: 100%;
+    }
+    .habilidades {
+        margin: 1rem;
+        width: 100%;
+    }
+}

@@ -1,0 +1,37 @@
+.logros {
+    padding-top: 20%;
+}
+
+.contNubes {
+    background-image: url(../../../assets/img/nubes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+@media only screen and (min-width: 768px) {
+    .contNubes img {
+        margin-left: 20%;
+    }
+    .logro1 {
+        display: flex;
+        justify-content: space-around;
+    }
+    .cont-p,
+    .cont-p2 {
+        width: 50%;
+    }
+    .contimg {
+        width: 50%;
+    }
+    .logros {
+        padding-top: 7%;
+    }
+    .cont-p2 {
+        margin-top: 20%;
+        line-height: 2;
+    }
+}

@@ -1,0 +1,25 @@
+.copy {
+    font-size: 1rem;
+    line-height: 2;
+    margin-right: 0rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.589);
+    ;
+}
+
+@media only screen and (min-width: 768px) {
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+    .copy {
+        font-size: 1.5rem;
+        line-height: 5;
+        margin-right: 4rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: rgba(0, 0, 0, 0.589);
+        ;
+    }
+}

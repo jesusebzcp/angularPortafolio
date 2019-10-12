@@ -1,1 +1,182 @@
 /* You can add global styles to this file, and also import other style files */
+
+.ancla:before {
+    display: block;
+    content: " ";
+    margin-top: -200px;
+    height: 200px;
+    visibility: hidden;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+
+/* //estilos header */
+
+
+/* You can add global styles to this file, and also import other style files */
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Anton', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+h2::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f107";
+    color: #1976D2;
+    display: block;
+}
+
+.red {
+    color: red;
+}
+
+label {
+    font-size: 1.5rem;
+    font-family: 'Anton', sans-serif;
+}
+
+p,
+.card-text {
+    color: #8c8c8c!important;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    text-align: center;
+}
+
+.nombre {
+    font-weight: bold;
+}
+
+.Profesion {
+    color: #1976D2;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+.cont-btn {
+    justify-content: center;
+}
+
+.cont-btn a {
+    margin: 2rem;
+}
+
+.red .fab {
+    background-color: rgb(51, 51, 51);
+    border-radius: 50%;
+    padding: 1rem;
+    margin: 2rem 1rem;
+    color: white;
+}
+
+.fondo {
+    background-image: url(./assets/img/background-2462430_1280.jpg);
+    background-attachment: fixed;
+}
+
+.contcont {
+    background-color: rgba(0, 0, 0, 0.13);
+    ;
+}
+
+.contcont h2 {
+    padding-top: 2rem;
+    ;
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        padding-top: 80px;
+        box-shadow: -3px 9px 14px -9px rgba(0, 0, 0, 0.75);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .con-header {
+        padding-top: 80px;
+        -webkit-box-shadow: -3px 9px 14px -9px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -3px 9px 14px -9px rgba(0, 0, 0, 0.75);
+        box-shadow: -3px 9px 14px -9px rgba(0, 0, 0, 0.75);
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6db3f2+36,6db3f2+48,54a3ee+55,3690f0+73,3690f0+82,1e69de+100&0+19,1+55,1+58,1+68,1+83,1+100 */
+        background: -moz-linear-gradient(left, rgba(109, 179, 242, 0) 19%, rgba(109, 179, 242, 0.47) 36%, rgba(109, 179, 242, 0.8) 48%, rgba(84, 163, 238, 1) 55%, rgba(79, 160, 238, 1) 58%, rgba(62, 149, 239, 1) 68%, rgba(54, 144, 240, 1) 73%, rgba(54, 144, 240, 1) 82%, rgba(53, 142, 239, 1) 83%, rgba(30, 105, 222, 1) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(109, 179, 242, 0) 19%, rgba(109, 179, 242, 0.47) 36%, rgba(109, 179, 242, 0.8) 48%, rgba(84, 163, 238, 1) 55%, rgba(79, 160, 238, 1) 58%, rgba(62, 149, 239, 1) 68%, rgba(54, 144, 240, 1) 73%, rgba(54, 144, 240, 1) 82%, rgba(53, 142, 239, 1) 83%, rgba(30, 105, 222, 1) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(109, 179, 242, 0) 19%, rgba(109, 179, 242, 0.47) 36%, rgba(109, 179, 242, 0.8) 48%, rgba(84, 163, 238, 1) 55%, rgba(79, 160, 238, 1) 58%, rgba(62, 149, 239, 1) 68%, rgba(54, 144, 240, 1) 73%, rgba(54, 144, 240, 1) 82%, rgba(53, 142, 239, 1) 83%, rgba(30, 105, 222, 1) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#006db3f2', endColorstr='#1e69de', GradientType=1);
+        /* IE6-9 */
+    }
+    .d-flexC {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .presentacion {
+        width: 50%;
+        margin-top: 4rem;
+    }
+    .cont-ilustracion {
+        width: 50%;
+    }
+}
+
+.card-img-top {
+    text-align: center!important;
+    color: black!important;
+    font-size: 6rem !important;
+    padding: 2rem 0;
+}
+
+.contTarjetas {
+    margin-top: 2rem;
+}
+
+.card-text {
+    color: #343b43!important;
+}
+
+.servih2P {
+    color: #343b43;
+    margin: 2rem;
+    line-height: 2;
+}
+
+.cont {
+    text-align: center;
+    display: flex;
+    justify-content: center
+}
+
+.servi h2 {
+    text-align: center;
+    width: 30%;
+    font-weight: bold;
+    color: #525c68!important;
+}
+
+.fa-cogs {
+    color: rgb(255, 255, 13);
+}
