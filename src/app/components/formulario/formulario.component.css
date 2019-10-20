@@ -1,0 +1,44 @@
+.contacto{
+    text-align: center;
+}
+.fa-whatsapp{
+    background-color: #1EBEA5;
+    padding:20px ;
+    color: white;
+    font-size: 3rem;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.animado {
+    -webkit-animation: swing 15s ease;
+    animation: swing 15s ease;
+    -webkit-animation-iteration-count: 15;
+    animation-iteration-count: 30;
+}
+
+@-webkit-keyframes animado {
+    15% {
+        -webkit-transform: translateX(16px);
+        transform: translateX(16px);
+    }
+    30% {
+        -webkit-transform: translateX(-16px);
+        transform: translateX(-16px);
+    }
+    50% {
+        -webkit-transform: translateX(12px);
+        transform: translateX(12px);
+    }
+    65% {
+        -webkit-transform: translateX(-12px);
+        transform: translateX(-12px);
+    }
+    80% {
+        -webkit-transform: translateX(8px);
+        transform: translateX(8px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}

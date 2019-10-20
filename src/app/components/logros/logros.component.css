@@ -2,15 +2,7 @@
     padding-top: 20%;
 }
 
-.contNubes {
-    background-image: url(../../../assets/img/nubes.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 50vh;
-    width: 100%;
-    background-attachment: fixed;
-}
+
 
 @media only screen and (min-width: 768px) {
     .contNubes img {

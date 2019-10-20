@@ -54,13 +54,6 @@ img {
     height: 70vh;
 }
 
-.fondoYisus {
-    background-image: url(../../components/../../assets/img/FONDOjESUS.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-}
 
 .contImgQ {
     text-align: center;

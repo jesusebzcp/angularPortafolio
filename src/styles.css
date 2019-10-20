@@ -1,5 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
-
+.especial{
+    color: black;
+    font-weight: bold;
+}
+.contNubes {
+    background-image: url(assets/img/nubes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+.fondoYisus {
+    background-image: url(assets/img/FONDOjESUS.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
 .ancla:before {
     display: block;
     content: " ";
@@ -69,12 +88,6 @@ header {
     font-weight: bold;
 }
 
-.Profesion {
-    color: #1976D2;
-    font-weight: bold;
-    font-size: 2rem;
-    margin: 2rem;
-}
 
 .cont-btn {
     justify-content: center;
